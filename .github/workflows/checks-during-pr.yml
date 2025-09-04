@@ -15,7 +15,7 @@ jobs:
           submodules: recursive
 
       - name: 'Use NodeJS v.20'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
